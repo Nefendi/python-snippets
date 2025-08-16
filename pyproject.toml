@@ -1,0 +1,13 @@
+[project]
+name = "python-snippets"
+version = "0.1.0"
+description = "A collection of useful Python snippets"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "mypy>=1.17.1",
+    "ruff>=0.12.9",
+]
